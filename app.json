@@ -1,0 +1,43 @@
+{
+      "name": "HydraUserBot",
+      "description": "Dev : OTAZUKI.",
+      "logo": "https://telegra.ph/file/18e6b01aa06b93c13d1ab.png",
+      "keywords": [
+         "telegram",
+         "anime",
+         "advanced",
+         "userbot",
+         "NekoRobot"
+      ],   
+   "repository": "https://github.com/Otazuki004/hydraUB",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "env": {
+      "BOT_TOKEN": {
+         "description": "Your bot token. Get one from @BotFather duh",
+         "required": true,
+         "value": "5456389786:AAHSIk0qgyE1XglPe6ZW9UxKUBR9NiEj848"
+      },
+      "API_ID": {
+         "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
+         "required": true,
+         "value": "10187126"
+      },
+      "API_HASH": {
+         "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
+         "required": true,
+         "value": "ff197c0d23d7fe54c89b44ed092c1752"
+      },    
+      "SESSION": {
+         "description": "Your Pyrogram String Session.",
+         "required": true,
+         "value": "BQAsKCCILGC1Fk6AWYuBpEsMbia95nJH3NaxNwjBPi317WyNkucUTi48rnSInV1TqEjMmEAhHItde_JJtAY9_UASuGnZZokTGZG3YI_25HJoK2PDDeGftBzmzIUEV4u7snfJC-64bLXofr1qZUAE5e8kVQaO8wqln-S4Svr1ViF0MkMXuG5YWFSWlZOVtv2YXtuEwcMHcxjq2EgPTo47nE8bOkNvQEg5N6ATjnrh3KVlZ69OKmBAYzMNJSXYlc6XtDd3iT5HTWBctw3ChyBEobFzp3FSKS3-TS-k-IVZVANQU_qo9ytyk7kyOrs72YTBZlcehXAfVRF8z6b_H2J04jsQAAAAAHZa2T0A"
+     }
+         }
+      }
